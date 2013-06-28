@@ -1,0 +1,64 @@
+package derek3d;
+
+/**
+ * This is a 3D Point class that is able to be used for any 3-D object representation of a Point.
+ * 
+ * @author dwitte
+ *
+ */
+public class Point3Df {
+	private float x,y,z;
+	
+	/**
+	 * Constructor. Sets all the coordinates x,y,z to 0.0.
+	 */
+	Point3Df()
+	{
+		x = 0.0f;
+		y = 0.0f;
+		z = 0.0f;
+	}
+	
+	/**
+	 * Constructor. Sets all the coordinates to their respective values; x=x, y=y, z=z.
+	 * @param x float x
+	 * @param y float y
+	 * @param z float z
+	 */
+	Point3Df(float x, float y, float z)
+	{
+		this.x = x;
+		this.y = y;
+		this.z = z;
+	}
+
+	/**
+	 * Getter for the 
+	 * @return
+	 */
+	public float getX() {
+		return x;
+	}
+
+	public void setX(float x) {
+		this.x = x;
+	}
+
+	public float getY() {
+		return y;
+	}
+
+	public void setY(float y) {
+		this.y = y;
+	}
+
+	public float getZ() {
+		return z;
+	}
+
+	public void setZ(float z) {
+		this.z = z;
+	}
+	
+	
+}

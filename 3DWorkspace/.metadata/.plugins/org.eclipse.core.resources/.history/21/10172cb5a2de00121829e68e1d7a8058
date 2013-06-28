@@ -1,0 +1,95 @@
+package derek3d;
+
+/**
+ * This is a 3D Point class that is able to be used for any 3-D object representation of a Point using floats as the data holder.
+ * 
+ * @author dwitte
+ *
+ */
+public class Point3Df {
+	/**
+	 * Stores the x coordinate of the point.
+	 */
+	private float x;
+	/**
+	 * Stores the y coordinate of the point.
+	 */
+	private float y;
+	/**
+	 * Stores the z coordinate of the point.
+	 */
+	private float z;
+	
+	/**
+	 * Constructor. Sets all the coordinates x,y,z to 0.0f.
+	 */
+	Point3Df()
+	{
+		x = 0.0f;
+		y = 0.0f;
+		z = 0.0f;
+	}
+	
+	/**
+	 * Constructor. Sets all the coordinates to their respective values; x=x, y=y, z=z.
+	 * @param x float x
+	 * @param y float y
+	 * @param z float z
+	 */
+	Point3Df(float x, float y, float z)
+	{
+		this.x = x;
+		this.y = y;
+		this.z = z;
+	}
+
+	/**
+	 * Returns the x coordinate of the point.
+	 * @return float
+	 */
+	public float getX() {
+		return x;
+	}
+
+	/**
+	 * Sets the x coordinate to the given parameter.
+	 * @param x float
+	 */
+	public void setX(float x) {
+		this.x = x;
+	}
+
+	/**
+	 * Returns the y coordinate of the point.
+	 * @return float
+	 */
+	public float getY() {
+		return y;
+	}
+
+	/**
+	 * Sets the y coordinate to the given parameter.
+	 * @param y float
+	 */
+	public void setY(float y) {
+		this.y = y;
+	}
+
+	/**
+	 * Returns the z coordinate of the point.
+	 * @return float
+	 */
+	public float getZ() {
+		return z;
+	}
+
+	/**
+	 * Sets the z coordinate to the given parameter.
+	 * @param z float
+	 */
+	public void setZ(float z) {
+		this.z = z;
+	}
+	
+	
+}

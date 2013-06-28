@@ -1,0 +1,39 @@
+package derek3d;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Point3DfTest {
+
+	@Test
+	public void testGetX() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetX() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetY() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetY() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetZ() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetZ() {
+		fail("Not yet implemented");
+	}
+
+}

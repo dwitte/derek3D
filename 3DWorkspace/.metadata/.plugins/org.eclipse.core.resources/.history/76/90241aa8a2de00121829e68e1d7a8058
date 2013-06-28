@@ -1,0 +1,53 @@
+package derek3d;
+
+/**
+ * This is a 3D Point class that is able to be used for any 3-D object representation of a Point using doubles as the data holder.
+ * 
+ * @author dwitte
+ *
+ */
+public class Point3D {
+	private double x;
+	private double y;
+	private double z;
+	
+	Point3D()
+	{
+		x = 0.0;
+		y = 0.0;
+		z = 0.0;
+	}
+	
+	Point3D(double x, double y, double z)
+	{
+		this.x = x;
+		this.y = y;
+		this.z = z;
+	}
+
+	public double getX() {
+		return x;
+	}
+
+	public void setX(double x) {
+		this.x = x;
+	}
+
+	public double getY() {
+		return y;
+	}
+
+	public void setY(double y) {
+		this.y = y;
+	}
+
+	public double getZ() {
+		return z;
+	}
+
+	public void setZ(double z) {
+		this.z = z;
+	}
+	
+	
+}

@@ -1,0 +1,66 @@
+package derek3d;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Point3DTest {
+
+	@Test
+	public void testPoint3D() {
+		Point3D point = new Point3D();
+		if(!(point.getX() == 0.0 && point.getY() == 0.0 && point.getZ() == 0.0))
+			fail("Not yet implemented");
+	}
+
+	@Test
+	public void testPoint3DDoubleDoubleDouble() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetX() {
+		Point3D point = new Point3D(4.0,-1.0,-2.0);
+		if(point.getX() != 4.0)
+			fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetX() {
+		Point3D point = new Point3D();
+		point.setX(4.0);
+		if(point.getX() != 4.0)
+			fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetY() {
+		Point3D point = new Point3D(-1.0,4.0,-2.0);
+		if(point.getY() != 4.0)
+			fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetY() {
+		Point3D point = new Point3D();
+		point.setY(4.0);
+		if(point.getY() != 4.0)
+			fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetZ() {
+		Point3D point = new Point3D(-1.0,-2.0,4.0);
+		if(point.getZ() != 4.0)
+			fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetZ() {
+		Point3D point = new Point3D();
+		point.setZ(4.0);
+		if(point.getZ() != 4.0)
+			fail("Not yet implemented");
+	}
+
+}
